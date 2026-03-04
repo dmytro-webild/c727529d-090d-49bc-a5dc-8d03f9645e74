@@ -152,13 +152,15 @@ export default function LandingPage() {
           textboxLayout="default"
           testimonials={[
             {
-              id: "1",              name: "George Alcocer",              role: "Homeowner",              testimonial: "Excellent work on my gas valve and stove installation. Highly professional and efficient service. The team was on time, courteous, and completed the job to perfection. I've already recommended them to my neighbors."
+              id: "1",              name: "George Alcocer",              role: "Homeowner",              testimonial: "I needed a new gas valve on my kitchen for a new stove that I bought. I called H&H and we scheduled for a more convenient day and Daniel was here on time. He did the job and he even installed the new stove. I was very pleased with them. They also got the better prices in town. I will recommend H&H.PositiveResponsiveness, Punctuality, Quality, Professionalism, Value"
             },
             {
-              id: "2",              name: "S K",              role: "Homeowner",              testimonial: "Great service fixing our kitchen sink and basement leak. Fast, reliable, and fair pricing. They identified the problem quickly and had it fixed the same day. Outstanding customer service from start to finish."
+              id: "2",              name: "S K",              role: "Homeowner",              testimonial: "Super friendly! Very knowledgeable. Helped fix my kitchen sink. It was bubbling and backing up. He cleaned out the clogged pipe. He also fixed a leak in the pipe that was flooding our basement. Very understanding of my schedule.
+
+Pay by cash or check"
             },
             {
-              id: "3",              name: "KL Hughes",              role: "Homeowner",              testimonial: "Top-notch septic tank and pump repair. They know their stuff and got the job done right. The technicians were knowledgeable, professional, and took time to explain everything they were doing. Very satisfied with the work."
+              id: "3",              name: "KL Hughes",              role: "Homeowner",              testimonial: "They came out and pumped out my septic tank when they did they discovered a problem. The owner came out and found a short on my pump and he fixed it at a very reasonable rate. I am single mom buying my home and very much struggling most of the time to stay on top of it. When this happened it could have devastated me financially for very long time. He could have told me I needed a new pump which are about 1300.00 and lined his pocket I would have never known it was a short. These people are honest and real I would recommend them to anyone. I will never use anyone but them.PositiveResponsiveness, Punctuality, Quality, Professionalism, ValueServicesSewer repair"
             },
             {
               id: "4",              name: "Arthur Zion",              role: "Homeowner",              testimonial: "Overall fantastic experience. Would definitely use them again for any plumbing needs. They communicated well throughout the project, arrived on time, and delivered quality workmanship. I trust them completely."
