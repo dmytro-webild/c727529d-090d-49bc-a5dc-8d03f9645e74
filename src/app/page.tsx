@@ -152,19 +152,37 @@ export default function LandingPage() {
           textboxLayout="default"
           testimonials={[
             {
-              id: "1",              name: "Sarah Johnson",              role: "Homeowner",              testimonial: "Super job, fast service, knowledgeable, fair priced, highly recommend. They fixed our emergency leak in under an hour!"
+              id: "1",              name: "George Alcocer",              role: "Homeowner",              testimonial: "Excellent work on my gas valve and stove installation. Highly professional and efficient service."
             },
             {
-              id: "2",              name: "Michael Chen",              role: "Property Manager",              testimonial: "Amazing service from start to finish. They also got the better prices in town. We use them for all our properties now."
+              id: "2",              name: "S K",              role: "Homeowner",              testimonial: "Great service fixing our kitchen sink and basement leak. Fast, reliable, and fair pricing."
             },
             {
-              id: "3",              name: "Emily Rodriguez",              role: "Homeowner",              testimonial: "Very understanding of my schedule and worked around my availability. Professional, courteous, and they explained everything they were doing."
+              id: "3",              name: "KL Hughes",              role: "Homeowner",              testimonial: "Top-notch septic tank and pump repair. They know their stuff and got the job done right."
             },
             {
-              id: "4",              name: "David Kim",              role: "Landlord",              testimonial: "Called for an emergency at 2 AM and they answered immediately. Technician was at the property in 30 minutes. Outstanding service!"
+              id: "4",              name: "Arthur Zion",              role: "Homeowner",              testimonial: "Overall fantastic experience. Would definitely use them again for any plumbing needs."
             },
             {
-              id: "5",              name: "Jennifer Martinez",              role: "Homeowner",              testimonial: "They replaced our water heater and did all the plumbing work beautifully. The team was clean, respectful, and very professional."
+              id: "5",              name: "Jeffrey McKay",              role: "Property Manager",              testimonial: "A true local business gem. Highly recommend for all your plumbing needs in Kansas City."
+            },
+            {
+              id: "6",              name: "Nyawsh Yacood",              role: "Homeowner",              testimonial: "Incredibly fast service. They responded quickly and fixed the problem immediately."
+            },
+            {
+              id: "7",              name: "Carl Markus",              role: "Homeowner",              testimonial: "Dennis and Daniel are absolutely fantastic. Professional, courteous, and skilled technicians."
+            },
+            {
+              id: "8",              name: "Ike Goon",              role: "Homeowner",              testimonial: "Great experience at the shop. Excellent customer service and quality work."
+            },
+            {
+              id: "9",              name: "Vincent Burke",              role: "Homeowner",              testimonial: "Outstanding customer service. The team went above and beyond to help us."
+            },
+            {
+              id: "10",              name: "Cynthia Florez",              role: "Homeowner",              testimonial: "Fast and reliable toilet repair. Professional work and great communication throughout."
+            },
+            {
+              id: "11",              name: "Elvin Boone",              role: "Homeowner",              testimonial: "Great guys! They made everything easy and did excellent work. Highly satisfied."
             }
           ]}
           animationType="slide-up"
