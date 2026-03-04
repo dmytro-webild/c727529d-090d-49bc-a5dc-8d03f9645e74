@@ -8,9 +8,39 @@ import TextSplitAbout from '@/components/sections/about/TextSplitAbout';
 import TestimonialCardTwo from '@/components/sections/testimonial/TestimonialCardTwo';
 import ContactSplitForm from '@/components/sections/contact/ContactSplitForm';
 import FooterSimple from '@/components/sections/footer/FooterSimple';
-import { Star, Heart } from 'lucide-react';
+import { Star, Heart, ChevronLeft, ChevronRight } from 'lucide-react';
+import { useRef, useState } from 'react';
 
 export default function LandingPage() {
+  const carouselRef = useRef<HTMLDivElement>(null);
+  const [currentIndex, setCurrentIndex] = useState(0);
+
+  const testimonials = [
+    {
+      id: "1",      name: "Sarah Johnson",      role: "Homeowner",      testimonial: "Super job, fast service, knowledgeable, fair priced, highly recommend. They fixed our emergency leak in under an hour!"
+    },
+    {
+      id: "2",      name: "Michael Chen",      role: "Property Manager",      testimonial: "Amazing service from start to finish. They also got the better prices in town. We use them for all our properties now."
+    },
+    {
+      id: "3",      name: "Emily Rodriguez",      role: "Homeowner",      testimonial: "Very understanding of my schedule and worked around my availability. Professional, courteous, and they explained everything they were doing."
+    },
+    {
+      id: "4",      name: "David Kim",      role: "Landlord",      testimonial: "Called for an emergency at 2 AM and they answered immediately. Technician was at the property in 30 minutes. Outstanding service!"
+    },
+    {
+      id: "5",      name: "Jennifer Martinez",      role: "Homeowner",      testimonial: "They replaced our water heater and did all the plumbing work beautifully. The team was clean, respectful, and very professional."
+    }
+  ];
+
+  const handlePrevious = () => {
+    setCurrentIndex((prev) => (prev === 0 ? testimonials.length - 1 : prev - 1));
+  };
+
+  const handleNext = () => {
+    setCurrentIndex((prev) => (prev === testimonials.length - 1 ? 0 : prev + 1));
+  };
+
   return (
     <ThemeProvider
       defaultButtonVariant="text-shift"
@@ -150,26 +180,18 @@ export default function LandingPage() {
           tag="Reviews"
           tagAnimation="blur-reveal"
           textboxLayout="default"
-          testimonials={[
-            {
-              id: "1",              name: "Sarah Johnson",              role: "Homeowner",              testimonial: "Super job, fast service, knowledgeable, fair priced, highly recommend. They fixed our emergency leak in under an hour!"
-            },
-            {
-              id: "2",              name: "Michael Chen",              role: "Property Manager",              testimonial: "Amazing service from start to finish. They also got the better prices in town. We use them for all our properties now."
-            },
-            {
-              id: "3",              name: "Emily Rodriguez",              role: "Homeowner",              testimonial: "Very understanding of my schedule and worked around my availability. Professional, courteous, and they explained everything they were doing."
-            },
-            {
-              id: "4",              name: "David Kim",              role: "Landlord",              testimonial: "Called for an emergency at 2 AM and they answered immediately. Technician was at the property in 30 minutes. Outstanding service!"
-            },
-            {
-              id: "5",              name: "Jennifer Martinez",              role: "Homeowner",              testimonial: "They replaced our water heater and did all the plumbing work beautifully. The team was clean, respectful, and very professional."
-            }
-          ]}
+          testimonials={testimonials}
           animationType="slide-up"
           useInvertedBackground={false}
-          carouselMode="auto"
+          carouselMode="buttons"
+          buttons={[
+            {
+              text: "← Previous",              onClick: handlePrevious
+            },
+            {
+              text: "Next →",              onClick: handleNext
+            }
+          ]}
         />
       </div>
 
