@@ -36,7 +36,8 @@ export default function LandingPage() {
           button={{
             text: "Call Now",            href: "tel:(816)231-3916"
           }}
-          brandName="H & H Plumbing"
+          brandName="H & H Plumbing Co"
+          brandNameClassName="text-3xl md:text-4xl lg:text-5xl"
         />
       </div>
 
@@ -155,9 +156,7 @@ export default function LandingPage() {
               id: "1",              name: "George Alcocer",              role: "Homeowner",              testimonial: "I needed a new gas valve on my kitchen for a new stove that I bought. I called H&H and we scheduled for a more convenient day and Daniel was here on time. He did the job and he even installed the new stove. I was very pleased with them. They also got the better prices in town. I will recommend H&H.PositiveResponsiveness, Punctuality, Quality, Professionalism, Value"
             },
             {
-              id: "2",              name: "S K",              role: "Homeowner",              testimonial: "Super friendly! Very knowledgeable. Helped fix my kitchen sink. It was bubbling and backing up. He cleaned out the clogged pipe. He also fixed a leak in the pipe that was flooding our basement. Very understanding of my schedule.
-
-Pay by cash or check"
+              id: "2",              name: "S K",              role: "Homeowner",              testimonial: "Super friendly! Very knowledgeable. Helped fix my kitchen sink. It was bubbling and backing up. He cleaned out the clogged pipe. He also fixed a leak in the pipe that was flooding our basement. Very understanding of my schedule.\n\nPay by cash or check"
             },
             {
               id: "3",              name: "KL Hughes",              role: "Homeowner",              testimonial: "They came out and pumped out my septic tank when they did they discovered a problem. The owner came out and found a short on my pump and he fixed it at a very reasonable rate. I am single mom buying my home and very much struggling most of the time to stay on top of it. When this happened it could have devastated me financially for very long time. He could have told me I needed a new pump which are about 1300.00 and lined his pocket I would have never known it was a short. These people are honest and real I would recommend them to anyone. I will never use anyone but them.PositiveResponsiveness, Punctuality, Quality, Professionalism, ValueServicesSewer repair"
