@@ -161,16 +161,18 @@ export default function LandingPage() {
               id: "3",              name: "KL Hughes",              role: "Homeowner",              testimonial: "They came out and pumped out my septic tank when they did they discovered a problem. The owner came out and found a short on my pump and he fixed it at a very reasonable rate. I am single mom buying my home and very much struggling most of the time to stay on top of it. When this happened it could have devastated me financially for very long time. He could have told me I needed a new pump which are about 1300.00 and lined his pocket I would have never known it was a short. These people are honest and real I would recommend them to anyone. I will never use anyone but them.PositiveResponsiveness, Punctuality, Quality, Professionalism, ValueServicesSewer repair"
             },
             {
-              id: "4",              name: "Arthur Zion",              role: "Homeowner",              testimonial: "Overall fantastic experience. Would definitely use them again for any plumbing needs. They communicated well throughout the project, arrived on time, and delivered quality workmanship. I trust them completely."
+              id: "4",              name: "Arthur Zion",              role: "Homeowner",              testimonial: "Everything went well. Amazing service from start to finish."
             },
             {
-              id: "5",              name: "Jeffrey McKay",              role: "Property Manager",              testimonial: "A true local business gem. Highly recommend for all your plumbing needs in Kansas City. They handle multiple properties for us with reliability and professionalism. Their 24/7 availability has been invaluable for our business."
+              id: "5",              name: "Jeffrey McKay",              role: "Property Manager",              testimonial: "It's were my friend works plumber shop it a good place good people I think best plumbing in KC mo"
             },
             {
-              id: "6",              name: "Nyawsh Yacood",              role: "Homeowner",              testimonial: "Incredibly fast service. They responded quickly and fixed the problem immediately. The technician was friendly and professional. Couldn't ask for better service. Will definitely call them again next time."
+              id: "6",              name: "Nyawsh Yacood",              role: "Homeowner",              testimonial: "Super job , fast service , knowledgeable , fair priced, highly recommend ."
             },
             {
-              id: "7",              name: "Carl Markus",              role: "Homeowner",              testimonial: "Dennis and Daniel are absolutely fantastic. Professional, courteous, and skilled technicians. They take pride in their work and it shows. I've used them multiple times and they're always reliable and respectful of my home."
+              id: "7",              name: "Carl Markus",              role: "Homeowner",              testimonial: "Always to the rescue!
+Dennis and Daniel are Great
+Support Locally-owned business!!!"
             },
             {
               id: "8",              name: "Ike Goon",              role: "Homeowner",              testimonial: "Great experience at the shop. Excellent customer service and quality work. The staff was helpful and answered all my questions. They provided a fair quote and completed the work efficiently. Very professional all around."
