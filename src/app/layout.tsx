@@ -5,20 +5,10 @@ import { Inter } from "next/font/google";
 import "./globals.css";
 import { ServiceWrapper } from "@/components/ServiceWrapper";
 import Tag from "@/tag/Tag";
+import { Open_Sans } from "next/font/google";
 
-const lato = Lato({
-  variable: "--font-lato",  subsets: ["latin"],
-  weight: ["100", "300", "400", "700", "900"],
-});
 
-const halant = Halant({
-  variable: "--font-halant",  subsets: ["latin"],
-  weight: ["300", "400", "500", "600", "700"],
-});
 
-const inter = Inter({
-  variable: "--font-inter",  subsets: ["latin"],
-});
 
 export const metadata: Metadata = {
   title: "H & H Plumbing Co | 24/7 Plumber Kansas City, MO",  description: "Trusted local plumber in Kansas City serving residential & commercial. 24-hour emergency service, drain cleaning, leak repair & more. 5-star rated. Fair pricing. Call now!",  keywords: "plumber Kansas City, emergency plumber, drain cleaning, leak repair, 24 hour plumbing, septic tank, plumbing service Kansas City MO",  openGraph: {
@@ -37,6 +27,15 @@ export const metadata: Metadata = {
   }
 };
 
+const inter = Inter({
+  variable: "--font-inter",
+  subsets: ["latin"],
+});
+const openSans = Open_Sans({
+  variable: "--font-open-sans",
+  subsets: ["latin"],
+});
+
 export default function RootLayout({
   children,
 }: Readonly<{
@@ -45,9 +44,7 @@ export default function RootLayout({
   return (
     <html lang="en" suppressHydrationWarning>
       <ServiceWrapper>
-        <body
-          className={`${lato.variable} ${halant.variable} ${inter.variable} antialiased`}
-        >
+        <body className={`${inter.variable} ${openSans.variable} antialiased`}>
           <Tag />
           {children}
         
@@ -292,9 +289,7 @@ export default function RootLayout({
   const getElementInfo = (element, assignId = false) => {
     const rect = element.getBoundingClientRect();
     const tagName = element.tagName.toLowerCase();
-    const selector = getUniqueSelector(element, assignId);
-    const sectionId = getSectionId(element);
-    
+            
     let className = undefined;
     try {
       if (element.className) {
@@ -322,8 +317,7 @@ export default function RootLayout({
     };
     
     if (tagName === 'img') {
-      const originalSrc = extractOriginalUrl(element.src);
-      info.imageData = {
+            info.imageData = {
         src: originalSrc,
         alt: element.alt || undefined,
         naturalWidth: element.naturalWidth,
@@ -334,8 +328,7 @@ export default function RootLayout({
 
     if (tagName === 'video') {
       const rawSrc = element.src || element.currentSrc || (element.querySelector('source') && element.querySelector('source').src) || '';
-      const resolvedSrc = extractOriginalUrl(rawSrc);
-      info.imageData = {
+            info.imageData = {
         src: resolvedSrc,
         alt: element.getAttribute('aria-label') || undefined,
         isBackground: false,
@@ -348,8 +341,7 @@ export default function RootLayout({
     if (backgroundImage && backgroundImage !== 'none') {
       const urlMatch = backgroundImage.match(/url(['"]?([^'")]+)['"]?)/);
       if (urlMatch) {
-        const originalBgSrc = extractOriginalUrl(urlMatch[1]);
-        if (tagName !== 'img') {
+                if (tagName !== 'img') {
           info.imageData = {
             src: originalBgSrc,
             isBackground: true
@@ -361,8 +353,7 @@ export default function RootLayout({
       }
     }
     
-    const elementType = getElementType(element);
-    info.elementType = elementType;
+        info.elementType = elementType;
     
     if (elementType === 'Button') {
       const buttonText = element.textContent?.trim() || element.value || element.getAttribute('aria-label') || '';
@@ -455,13 +446,11 @@ export default function RootLayout({
   };
 
   const isTextElement = (element) => {
-    const elementType = getElementType(element);
-    return elementType === 'Text';
+        return elementType === 'Text';
   };
 
   const isButtonElement = (element) => {
-    const elementType = getElementType(element);
-    return elementType === 'Button';
+        return elementType === 'Button';
   };
 
   const updateButtonText = (element, newText) => {
@@ -536,8 +525,7 @@ export default function RootLayout({
     };
     
     const handleInput = () => {
-      const elementInfo = getElementInfo(element);
-      let currentText = element.textContent;
+            let currentText = element.textContent;
       
       // Ensure there's always at least a space to keep the element editable
       if (currentText === '' || currentText === null || currentText.length === 0) {
@@ -650,8 +638,7 @@ export default function RootLayout({
     }, '*');
     
     if (save && originalContent !== element.textContent) {
-      const elementInfo = getElementInfo(element);
-      let finalText = element.textContent;
+            let finalText = element.textContent;
       
       // Trim the final text and convert space-only to empty string for saving
       if (finalText === ' ' || finalText.trim() === '') {
@@ -780,7 +767,7 @@ export default function RootLayout({
     lastMouseX = e.clientX;
     lastMouseY = e.clientY;
 
-    const target = getMostSpecificElement(e.clientX, e.clientY) || e.target;
+    || e.target;
 
     if (!isValidElement(target) || target === hoveredElement || target === selectedElement) {
       return;
@@ -812,8 +799,7 @@ export default function RootLayout({
       hoverOverlay = createHoverOverlay(target);
     }
     
-    const elementType = getElementType(target);
-    showElementTypeLabel(target, elementType);
+        showElementTypeLabel(target, elementType);
     
     window.parent.postMessage({
       type: 'webild-element-hover',
@@ -855,7 +841,7 @@ export default function RootLayout({
   e.preventDefault();
   e.stopPropagation();
 
-  const target = getMostSpecificElement(e.clientX, e.clientY) || e.target;  
+  || e.target;  
   if (!isValidElement(target)) return;
     
     if (selectedElement && selectedElement !== target) {
@@ -900,8 +886,7 @@ export default function RootLayout({
       hoveredElement = null;
     }
     
-    const elementInfo = getElementInfo(target, true);
-    selectedElement.dataset.webildSelector = elementInfo.selector;
+        selectedElement.dataset.webildSelector = elementInfo.selector;
     showElementTypeLabel(target, elementInfo.elementType);
     
     window.parent.postMessage({
@@ -984,8 +969,7 @@ export default function RootLayout({
       isScrolling = false;
 
       if (lastMouseX > 0 && lastMouseY > 0) {
-        const target = getMostSpecificElement(lastMouseX, lastMouseY);
-        if (target && isValidElement(target) && target !== selectedElement) {
+                if (target && isValidElement(target) && target !== selectedElement) {
           hoveredElement = target;
 
           const computedStyle = window.getComputedStyle(target);
@@ -999,8 +983,7 @@ export default function RootLayout({
           hoveredElement.classList.add(hoverClass);
           hoverOverlay = createHoverOverlay(target);
 
-          const elementType = getElementType(target);
-          showElementTypeLabel(target, elementType);
+                    showElementTypeLabel(target, elementType);
 
           window.parent.postMessage({
             type: 'webild-element-hover',
@@ -1023,8 +1006,7 @@ export default function RootLayout({
 
   const saveChangeToStorage = (change) => {
     try {
-      const storageKey = getStorageKey();
-      const existingChanges = JSON.parse(localStorage.getItem(storageKey) || '[]');
+            const existingChanges = JSON.parse(localStorage.getItem(storageKey) || '[]');
 
       const filteredChanges = existingChanges.filter(c => {
         return !(c.oldValue === change.oldValue && c.sectionId === change.sectionId);
@@ -1044,8 +1026,7 @@ export default function RootLayout({
 
   const clearLocalChanges = () => {
     try {
-      const storageKey = getStorageKey();
-      localStorage.removeItem(storageKey);
+            localStorage.removeItem(storageKey);
       window.parent.postMessage({
         type: 'webild-local-changes-cleared',
         data: {}
@@ -1094,8 +1075,7 @@ export default function RootLayout({
 
     if (e.data.type === 'webild-cancel-changes') {
       try {
-        const storageKey = getStorageKey();
-        const savedChanges = localStorage.getItem(storageKey);
+                const savedChanges = localStorage.getItem(storageKey);
         if (savedChanges) {
           const changes = JSON.parse(savedChanges);
           changes.forEach(change => {
@@ -1117,8 +1097,7 @@ export default function RootLayout({
                 if (isBackground) {
                   element.style.backgroundImage = change.oldValue ? 'url(' + change.oldValue + ')' : '';
                 } else {
-                  const oldMediaType = getMediaTypeFromUrl(change.oldValue);
-                  if (revertTag === 'video' && oldMediaType === 'image') {
+                                    if (revertTag === 'video' && oldMediaType === 'image') {
                     swapMediaElement(element, 'img', change.oldValue);
                   } else if (revertTag === 'img' && oldMediaType === 'video') {
                     swapMediaElement(element, 'video', change.oldValue);
@@ -1166,8 +1145,7 @@ export default function RootLayout({
               const el = textElements[i];
               if (isTextElement(el) && el.textContent.trim() === (oldValue || '').trim()) {
                 element = el;
-                const newSelector = getUniqueSelector(element, true);
-                if (newSelector) {
+                                if (newSelector) {
                   element.dataset.webildSelector = newSelector;
                 }
                 break;
@@ -1258,10 +1236,8 @@ export default function RootLayout({
           replaced = true;
         } else if (element.tagName.toLowerCase() === 'img') {
           oldValue = element.src;
-          const newMediaType = getMediaTypeFromUrl(newSrc);
-          if (newMediaType === 'video' && allowMediaTypeSwap) {
-            const swapped = swapMediaElement(element, 'video', newSrc);
-            if (selectedElement === element) selectedElement = swapped;
+                    if (newMediaType === 'video' && allowMediaTypeSwap) {
+                        if (selectedElement === element) selectedElement = swapped;
             element = swapped;
           } else {
             element.src = newSrc;
@@ -1269,11 +1245,9 @@ export default function RootLayout({
           replaced = true;
         } else if (element.tagName.toLowerCase() === 'video') {
           oldValue = element.src || element.currentSrc || '';
-          const newMediaType = getMediaTypeFromUrl(newSrc);
-          const sources = element.querySelectorAll('source');
+                    const sources = element.querySelectorAll('source');
           if (newMediaType === 'image' && allowMediaTypeSwap) {
-            const swapped = swapMediaElement(element, 'img', newSrc);
-            if (selectedElement === element) selectedElement = swapped;
+                        if (selectedElement === element) selectedElement = swapped;
             element = swapped;
           } else {
             if (sources.length > 0) {
@@ -1295,8 +1269,7 @@ export default function RootLayout({
         }
 
         if (replaced) {
-          const elementInfo = getElementInfo(element);
-
+          
           let cleanOldValue = oldValue;
           if (oldValue.includes('url(')) {
             const urlMatch = oldValue.match(/url(['"]?([^'")]+)['"]?)/);
@@ -1367,13 +1340,7 @@ export default function RootLayout({
     }
   }, true);
   
-  const urlCheckInterval = setInterval(() => {
-    if (lastPathname !== window.location.pathname) {
-      lastPathname = window.location.pathname;
-      notifyPageChange();
-    }
-  }, 500);
-  
+    
   notifyPageChange();
   
   window.webildCleanup = () => {
