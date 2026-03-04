@@ -169,7 +169,7 @@ export default function LandingPage() {
           ]}
           animationType="slide-up"
           useInvertedBackground={false}
-          carouselMode="auto"
+          carouselMode="buttons"
         />
       </div>
 
