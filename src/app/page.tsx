@@ -152,37 +152,37 @@ export default function LandingPage() {
           textboxLayout="default"
           testimonials={[
             {
-              id: "1",              name: "George Alcocer",              role: "Homeowner",              testimonial: "Excellent work on my gas valve and stove installation. Highly professional and efficient service."
+              id: "1",              name: "George Alcocer",              role: "Homeowner",              testimonial: "Excellent work on my gas valve and stove installation. Highly professional and efficient service. The team was on time, courteous, and completed the job to perfection. I've already recommended them to my neighbors."
             },
             {
-              id: "2",              name: "S K",              role: "Homeowner",              testimonial: "Great service fixing our kitchen sink and basement leak. Fast, reliable, and fair pricing."
+              id: "2",              name: "S K",              role: "Homeowner",              testimonial: "Great service fixing our kitchen sink and basement leak. Fast, reliable, and fair pricing. They identified the problem quickly and had it fixed the same day. Outstanding customer service from start to finish."
             },
             {
-              id: "3",              name: "KL Hughes",              role: "Homeowner",              testimonial: "Top-notch septic tank and pump repair. They know their stuff and got the job done right."
+              id: "3",              name: "KL Hughes",              role: "Homeowner",              testimonial: "Top-notch septic tank and pump repair. They know their stuff and got the job done right. The technicians were knowledgeable, professional, and took time to explain everything they were doing. Very satisfied with the work."
             },
             {
-              id: "4",              name: "Arthur Zion",              role: "Homeowner",              testimonial: "Overall fantastic experience. Would definitely use them again for any plumbing needs."
+              id: "4",              name: "Arthur Zion",              role: "Homeowner",              testimonial: "Overall fantastic experience. Would definitely use them again for any plumbing needs. They communicated well throughout the project, arrived on time, and delivered quality workmanship. I trust them completely."
             },
             {
-              id: "5",              name: "Jeffrey McKay",              role: "Property Manager",              testimonial: "A true local business gem. Highly recommend for all your plumbing needs in Kansas City."
+              id: "5",              name: "Jeffrey McKay",              role: "Property Manager",              testimonial: "A true local business gem. Highly recommend for all your plumbing needs in Kansas City. They handle multiple properties for us with reliability and professionalism. Their 24/7 availability has been invaluable for our business."
             },
             {
-              id: "6",              name: "Nyawsh Yacood",              role: "Homeowner",              testimonial: "Incredibly fast service. They responded quickly and fixed the problem immediately."
+              id: "6",              name: "Nyawsh Yacood",              role: "Homeowner",              testimonial: "Incredibly fast service. They responded quickly and fixed the problem immediately. The technician was friendly and professional. Couldn't ask for better service. Will definitely call them again next time."
             },
             {
-              id: "7",              name: "Carl Markus",              role: "Homeowner",              testimonial: "Dennis and Daniel are absolutely fantastic. Professional, courteous, and skilled technicians."
+              id: "7",              name: "Carl Markus",              role: "Homeowner",              testimonial: "Dennis and Daniel are absolutely fantastic. Professional, courteous, and skilled technicians. They take pride in their work and it shows. I've used them multiple times and they're always reliable and respectful of my home."
             },
             {
-              id: "8",              name: "Ike Goon",              role: "Homeowner",              testimonial: "Great experience at the shop. Excellent customer service and quality work."
+              id: "8",              name: "Ike Goon",              role: "Homeowner",              testimonial: "Great experience at the shop. Excellent customer service and quality work. The staff was helpful and answered all my questions. They provided a fair quote and completed the work efficiently. Very professional all around."
             },
             {
-              id: "9",              name: "Vincent Burke",              role: "Homeowner",              testimonial: "Outstanding customer service. The team went above and beyond to help us."
+              id: "9",              name: "Vincent Burke",              role: "Homeowner",              testimonial: "Outstanding customer service. The team went above and beyond to help us. They handled a complex plumbing issue with expertise and explained everything clearly. I appreciate their dedication to solving the problem completely."
             },
             {
-              id: "10",              name: "Cynthia Florez",              role: "Homeowner",              testimonial: "Fast and reliable toilet repair. Professional work and great communication throughout."
+              id: "10",              name: "Cynthia Florez",              role: "Homeowner",              testimonial: "Fast and reliable toilet repair. Professional work and great communication throughout. They arrived promptly, diagnosed the issue quickly, and fixed it right the first time. Very satisfied with the service."
             },
             {
-              id: "11",              name: "Elvin Boone",              role: "Homeowner",              testimonial: "Great guys! They made everything easy and did excellent work. Highly satisfied."
+              id: "11",              name: "Elvin Boone",              role: "Homeowner",              testimonial: "Great guys! They made everything easy and did excellent work. From the initial phone call to the finished job, everything was smooth and professional. Highly satisfied and will use them for all future plumbing needs."
             }
           ]}
           animationType="slide-up"
