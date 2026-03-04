@@ -50,19 +50,19 @@ export default function LandingPage() {
           background={{ variant: "plain" }}
           mediaItems={[
             {
-              imageSrc: "http://img.b2bpic.net/free-photo/male-worker-operating-machinery-factory_107420-96043.jpg",              imageAlt: "Professional plumbing service technician"
+              imageSrc: "http://img.b2bpic.net/free-photo/male-worker-operating-machinery-factory_107420-96043.jpg?_wi=1",              imageAlt: "Professional plumbing service technician"
             },
             {
-              imageSrc: "http://img.b2bpic.net/free-photo/man-fixing-kitchen-sink_53876-13430.jpg",              imageAlt: "Emergency plumbing repair service"
+              imageSrc: "http://img.b2bpic.net/free-photo/man-fixing-kitchen-sink_53876-13430.jpg?_wi=1",              imageAlt: "Emergency plumbing repair service"
             },
             {
-              imageSrc: "http://img.b2bpic.net/free-photo/plumbing-repair-service_181624-27146.jpg",              imageAlt: "Drain cleaning and maintenance"
+              imageSrc: "http://img.b2bpic.net/free-photo/plumbing-repair-service_181624-27146.jpg?_wi=1",              imageAlt: "Drain cleaning and maintenance"
             },
             {
-              imageSrc: "http://img.b2bpic.net/free-photo/woman-fixing-kitchen-sink_53876-139620.jpg",              imageAlt: "Leak detection and repair"
+              imageSrc: "http://img.b2bpic.net/free-photo/woman-fixing-kitchen-sink_53876-139620.jpg?_wi=1",              imageAlt: "Leak detection and repair"
             },
             {
-              imageSrc: "http://img.b2bpic.net/free-photo/male-plumber-working-fix-problems-client-s-house_23-2150990710.jpg",              imageAlt: "Bathroom plumbing installation"
+              imageSrc: "http://img.b2bpic.net/free-photo/male-plumber-working-fix-problems-client-s-house_23-2150990710.jpg?_wi=1",              imageAlt: "Bathroom plumbing installation"
             }
           ]}
           buttons={[
@@ -87,22 +87,22 @@ export default function LandingPage() {
           textboxLayout="default"
           features={[
             {
-              title: "Emergency Plumbing",              description: "24/7 emergency response for urgent plumbing issues. We're here when you need us most.",              imageSrc: "http://img.b2bpic.net/free-photo/man-fixing-kitchen-sink_53876-13430.jpg",              imageAlt: "Emergency plumbing repair",              button: {
+              title: "Emergency Plumbing",              description: "24/7 emergency response for urgent plumbing issues. We're here when you need us most.",              imageSrc: "http://img.b2bpic.net/free-photo/man-fixing-kitchen-sink_53876-13430.jpg?_wi=2",              imageAlt: "Emergency plumbing repair",              button: {
                 text: "Learn More",                href: "#"
               }
             },
             {
-              title: "Drain Cleaning",              description: "Professional drain cleaning and unclogging services to keep your pipes flowing smoothly.",              imageSrc: "http://img.b2bpic.net/free-photo/plumbing-repair-service_181624-27146.jpg",              imageAlt: "Drain cleaning service",              button: {
+              title: "Drain Cleaning",              description: "Professional drain cleaning and unclogging services to keep your pipes flowing smoothly.",              imageSrc: "http://img.b2bpic.net/free-photo/plumbing-repair-service_181624-27146.jpg?_wi=2",              imageAlt: "Drain cleaning service",              button: {
                 text: "Learn More",                href: "#"
               }
             },
             {
-              title: "Leak Repair",              description: "Fast leak detection and repair to prevent water damage and save on your water bill.",              imageSrc: "http://img.b2bpic.net/free-photo/woman-fixing-kitchen-sink_53876-139620.jpg",              imageAlt: "Leak repair service",              button: {
+              title: "Leak Repair",              description: "Fast leak detection and repair to prevent water damage and save on your water bill.",              imageSrc: "http://img.b2bpic.net/free-photo/woman-fixing-kitchen-sink_53876-139620.jpg?_wi=2",              imageAlt: "Leak repair service",              button: {
                 text: "Learn More",                href: "#"
               }
             },
             {
-              title: "Septic Tank Services",              description: "Septic tank pumping, inspection, and maintenance for reliable waste management.",              imageSrc: "http://img.b2bpic.net/free-photo/male-worker-operating-machinery-factory_107420-96043.jpg",              imageAlt: "Septic tank service",              button: {
+              title: "Septic Tank Services",              description: "Septic tank pumping, inspection, and maintenance for reliable waste management.",              imageSrc: "http://img.b2bpic.net/free-photo/male-worker-operating-machinery-factory_107420-96043.jpg?_wi=2",              imageAlt: "Septic tank service",              button: {
                 text: "Learn More",                href: "#"
               }
             },
@@ -112,7 +112,7 @@ export default function LandingPage() {
               }
             },
             {
-              title: "Kitchen & Bathroom Plumbing",              description: "Expert installation and renovation of kitchen and bathroom plumbing systems.",              imageSrc: "http://img.b2bpic.net/free-photo/male-plumber-working-fix-problems-client-s-house_23-2150990710.jpg",              imageAlt: "Kitchen and bathroom plumbing",              button: {
+              title: "Kitchen & Bathroom Plumbing",              description: "Expert installation and renovation of kitchen and bathroom plumbing systems.",              imageSrc: "http://img.b2bpic.net/free-photo/male-plumber-working-fix-problems-client-s-house_23-2150990710.jpg?_wi=2",              imageAlt: "Kitchen and bathroom plumbing",              button: {
                 text: "Learn More",                href: "#"
               }
             }
@@ -152,7 +152,7 @@ export default function LandingPage() {
           textboxLayout="default"
           testimonials={[
             {
-              id: "1",              name: "Sarah Johnson",              role: "Homeowner",              testimonial: "Super job, fast service, knowledgeable, fair priced, highly recommend. They fixed our emergency leak in under an hour!",              imageSrc: "http://img.b2bpic.net/free-photo/smiling-millennial-man-looking-camera-cafe-headshot-portrait_1163-5163.jpg",              imageAlt: "Sarah Johnson",              icon: Heart
+              id: "1",              name: "Sarah Johnson",              role: "Homeowner",              testimonial: "Super job, fast service, knowledgeable, fair priced, highly recommend. They fixed our emergency leak in under an hour!",              imageSrc: "http://img.b2bpic.net/free-photo/smiling-millennial-man-looking-camera-cafe-headshot-portrait_1163-5163.jpg?_wi=1",              imageAlt: "Sarah Johnson",              icon: Heart
             },
             {
               id: "2",              name: "Michael Chen",              role: "Property Manager",              testimonial: "Amazing service from start to finish. They also got the better prices in town. We use them for all our properties now.",              imageSrc: "http://img.b2bpic.net/free-photo/closeup-smiling-beautiful-adult-businesswoman_1262-1760.jpg",              imageAlt: "Michael Chen",              icon: Heart
@@ -161,7 +161,7 @@ export default function LandingPage() {
               id: "3",              name: "Emily Rodriguez",              role: "Homeowner",              testimonial: "Very understanding of my schedule and worked around my availability. Professional, courteous, and they explained everything they were doing.",              imageSrc: "http://img.b2bpic.net/free-photo/smiling-young-businessman-suit-looking-camera-meeting_1163-4654.jpg",              imageAlt: "Emily Rodriguez",              icon: Heart
             },
             {
-              id: "4",              name: "David Kim",              role: "Landlord",              testimonial: "Called for an emergency at 2 AM and they answered immediately. Technician was at the property in 30 minutes. Outstanding service!",              imageSrc: "http://img.b2bpic.net/free-photo/smiling-millennial-man-looking-camera-cafe-headshot-portrait_1163-5163.jpg",              imageAlt: "David Kim",              icon: Heart
+              id: "4",              name: "David Kim",              role: "Landlord",              testimonial: "Called for an emergency at 2 AM and they answered immediately. Technician was at the property in 30 minutes. Outstanding service!",              imageSrc: "http://img.b2bpic.net/free-photo/smiling-millennial-man-looking-camera-cafe-headshot-portrait_1163-5163.jpg?_wi=2",              imageAlt: "David Kim",              icon: Heart
             },
             {
               id: "5",              name: "Jennifer Martinez",              role: "Homeowner",              testimonial: "They replaced our water heater and did all the plumbing work beautifully. The team was clean, respectful, and very professional.",              imageSrc: "http://img.b2bpic.net/free-photo/close-up-positive-businesswoman_1098-3531.jpg",              imageAlt: "Jennifer Martinez",              icon: Heart
