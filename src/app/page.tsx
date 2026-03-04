@@ -152,19 +152,19 @@ export default function LandingPage() {
           textboxLayout="default"
           testimonials={[
             {
-              id: "1",              name: "Sarah Johnson",              role: "Homeowner",              testimonial: "Super job, fast service, knowledgeable, fair priced, highly recommend. They fixed our emergency leak in under an hour!",              imageSrc: "http://img.b2bpic.net/free-photo/smiling-millennial-man-looking-camera-cafe-headshot-portrait_1163-5163.jpg?_wi=1",              imageAlt: "Sarah Johnson",              icon: Heart
+              id: "1",              name: "Sarah Johnson",              role: "Homeowner",              testimonial: "Super job, fast service, knowledgeable, fair priced, highly recommend. They fixed our emergency leak in under an hour!"
             },
             {
-              id: "2",              name: "Michael Chen",              role: "Property Manager",              testimonial: "Amazing service from start to finish. They also got the better prices in town. We use them for all our properties now.",              imageSrc: "http://img.b2bpic.net/free-photo/closeup-smiling-beautiful-adult-businesswoman_1262-1760.jpg",              imageAlt: "Michael Chen",              icon: Heart
+              id: "2",              name: "Michael Chen",              role: "Property Manager",              testimonial: "Amazing service from start to finish. They also got the better prices in town. We use them for all our properties now."
             },
             {
-              id: "3",              name: "Emily Rodriguez",              role: "Homeowner",              testimonial: "Very understanding of my schedule and worked around my availability. Professional, courteous, and they explained everything they were doing.",              imageSrc: "http://img.b2bpic.net/free-photo/smiling-young-businessman-suit-looking-camera-meeting_1163-4654.jpg",              imageAlt: "Emily Rodriguez",              icon: Heart
+              id: "3",              name: "Emily Rodriguez",              role: "Homeowner",              testimonial: "Very understanding of my schedule and worked around my availability. Professional, courteous, and they explained everything they were doing."
             },
             {
-              id: "4",              name: "David Kim",              role: "Landlord",              testimonial: "Called for an emergency at 2 AM and they answered immediately. Technician was at the property in 30 minutes. Outstanding service!",              imageSrc: "http://img.b2bpic.net/free-photo/smiling-millennial-man-looking-camera-cafe-headshot-portrait_1163-5163.jpg?_wi=2",              imageAlt: "David Kim",              icon: Heart
+              id: "4",              name: "David Kim",              role: "Landlord",              testimonial: "Called for an emergency at 2 AM and they answered immediately. Technician was at the property in 30 minutes. Outstanding service!"
             },
             {
-              id: "5",              name: "Jennifer Martinez",              role: "Homeowner",              testimonial: "They replaced our water heater and did all the plumbing work beautifully. The team was clean, respectful, and very professional.",              imageSrc: "http://img.b2bpic.net/free-photo/close-up-positive-businesswoman_1098-3531.jpg",              imageAlt: "Jennifer Martinez",              icon: Heart
+              id: "5",              name: "Jennifer Martinez",              role: "Homeowner",              testimonial: "They replaced our water heater and did all the plumbing work beautifully. The team was clean, respectful, and very professional."
             }
           ]}
           animationType="slide-up"
