@@ -36,14 +36,14 @@ export default function LandingPage() {
           button={{
             text: "Call Now",            href: "tel:(816)231-3916"
           }}
-          brandName="H & H Plumbing Co"
+          brandName="H & H Plumbing Co & Heating"
         />
       </div>
 
       <div id="hero" data-section="hero">
         <HeroBillboardGallery
-          title="Kansas City's Trusted 24/7 Plumbing Experts"
-          description="Fast response. Fair pricing. Reliable service when you need it most. We're available around the clock for emergency plumbing repairs, drain cleaning, and professional installations."
+          title="Kansas City's Trusted 24/7 Plumbing & Heating Experts"
+          description="Fast response. Fair pricing. Reliable service when you need it most. We're available around the clock for emergency plumbing repairs, drain cleaning, professional installations, and heating solutions."
           tag="5.0 Star Rated"
           tagIcon={Star}
           tagAnimation="blur-reveal"
@@ -80,8 +80,8 @@ export default function LandingPage() {
 
       <div id="services" data-section="services">
         <FeatureCardOne
-          title="Our Plumbing Services"
-          description="Comprehensive plumbing solutions for residential and light commercial properties. From emergency repairs to new installations, we handle it all with professional expertise and fair pricing."
+          title="Our Plumbing & Heating Services"
+          description="Comprehensive plumbing and heating solutions for residential and light commercial properties. From emergency repairs to new installations, we handle it all with professional expertise and fair pricing."
           tag="Services"
           tagAnimation="blur-reveal"
           textboxLayout="default"
@@ -113,9 +113,9 @@ export default function LandingPage() {
 
       <div id="about" data-section="about">
         <TextSplitAbout
-          title="Why Choose H & H Plumbing Co"
+          title="Why Choose H & H Plumbing Co & Heating"
           description={[
-            "We're a locally owned and operated plumbing company serving Kansas City and surrounding areas since 1995. Our team of experienced, licensed technicians is committed to delivering fast, reliable service with upfront, fair pricing.",            "We understand that plumbing emergencies can't wait. That's why we offer 24/7 service availability and pride ourselves on quick response times. Whether you need emergency repairs or planned maintenance, we treat your home with respect and complete the job right the first time.",            "Our 5.0 star rating on Google reflects our dedication to customer satisfaction. We stand behind our work with quality craftsmanship and transparent communication every step of the way."
+            "We're a locally owned and operated plumbing and heating company serving Kansas City and surrounding areas since 1995. Our team of experienced, licensed technicians is committed to delivering fast, reliable service with upfront, fair pricing.",            "We understand that plumbing and heating emergencies can't wait. That's why we offer 24/7 service availability and pride ourselves on quick response times. Whether you need emergency repairs or planned maintenance, we treat your home with respect and complete the job right the first time.",            "Our 5.0 star rating on Google reflects our dedication to customer satisfaction. We stand behind our work with quality craftsmanship and transparent communication every step of the way."
           ]}
           buttons={[
             {
@@ -134,7 +134,7 @@ export default function LandingPage() {
       <div id="reviews" data-section="reviews">
         <TestimonialCardTwo
           title="What Our Customers Say"
-          description="See why homeowners and property managers throughout Kansas City trust H & H Plumbing for all their plumbing needs."
+          description="See why homeowners and property managers throughout Kansas City trust H & H Plumbing Co & Heating for all their plumbing and heating needs."
           tag="Reviews"
           tagAnimation="blur-reveal"
           textboxLayout="default"
@@ -181,7 +181,7 @@ export default function LandingPage() {
 
       <div id="contact" data-section="contact">
         <ContactSplitForm
-          title="Need Plumbing Help? We're Available 24/7"
+          title="Need Plumbing or Heating Help? We're Available 24/7"
           description="Get a quick response from our team. Fill out the form below or call us directly at (816) 231-3916. We'll get back to you as soon as possible."
           inputs={[
             {
@@ -194,11 +194,11 @@ export default function LandingPage() {
               name: "email",              type: "email",              placeholder: "Email Address",              required: true
             },
             {
-              name: "service",              type: "text",              placeholder: "Service Needed (e.g., Emergency Repair, Drain Cleaning)",              required: true
+              name: "service",              type: "text",              placeholder: "Service Needed (e.g., Emergency Repair, Drain Cleaning, Heating)",              required: true
             }
           ]}
           textarea={{
-            name: "description",            placeholder: "Describe your plumbing issue",            rows: 4,
+            name: "description",            placeholder: "Describe your plumbing or heating issue",            rows: 4,
             required: true
           }}
           useInvertedBackground={false}
@@ -243,8 +243,8 @@ export default function LandingPage() {
               ]
             }
           ]}
-          bottomLeftText="© 2025 H & H Plumbing Co. All rights reserved. Locally owned and operated in Kansas City, MO."
-          bottomRightText="Available 24/7 for Emergency Plumbing Service"
+          bottomLeftText="© 2025 H & H Plumbing Co & Heating. All rights reserved. Locally owned and operated in Kansas City, MO."
+          bottomRightText="Available 24/7 for Emergency Plumbing and Heating Service"
         />
       </div>
     </ThemeProvider>
