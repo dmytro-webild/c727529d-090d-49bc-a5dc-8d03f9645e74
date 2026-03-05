@@ -164,7 +164,7 @@ export default function LandingPage() {
               id: "4",              name: "Arthur Zion",              role: "",              testimonial: "Everything went well. Amazing service from start to finish."
             },
             {
-              id: "5",              name: "Jeffrey McKay",              role: "Property Manager",              testimonial: "It's were my friend works plumber shop it a good place good people I think best plumbing in KC mo"
+              id: "5",              name: "Jeffrey McKay",              role: "",              testimonial: "It's were my friend works plumber shop it a good place good people I think best plumbing in KC mo"
             },
             {
               id: "6",              name: "Nyawsh Yacood",              role: "",              testimonial: "Super job , fast service , knowledgeable , fair priced, highly recommend ."
