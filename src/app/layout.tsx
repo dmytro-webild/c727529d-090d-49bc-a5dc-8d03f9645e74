@@ -1,56 +1,24 @@
 import type { Metadata } from "next";
-import { Lato } from "next/font/google";
-import { Halant } from "next/font/google";
 import { Inter } from "next/font/google";
 import "./globals.css";
-import { ServiceWrapper } from "@/components/ServiceWrapper";
-import Tag from "@/tag/Tag";
+import "./styles/variables.css";
+import "./styles/base.css";
 
-const lato = Lato({
-  variable: "--font-lato",  subsets: ["latin"],
-  weight: ["100", "300", "400", "700", "900"],
-});
-
-const halant = Halant({
-  variable: "--font-halant",  subsets: ["latin"],
-  weight: ["300", "400", "500", "600", "700"],
-});
-
-const inter = Inter({
-  variable: "--font-inter",  subsets: ["latin"],
-});
+const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "H & H Plumbing Co | 24/7 Plumber Kansas City, MO",  description: "Trusted local plumber in Kansas City serving residential & commercial. 24-hour emergency service, drain cleaning, leak repair & more. 5-star rated. Fair pricing. Call now!",  keywords: "plumber Kansas City, emergency plumber, drain cleaning, leak repair, 24 hour plumbing, septic tank, plumbing service Kansas City MO",  openGraph: {
-    title: "H & H Plumbing Co | 24/7 Plumber Kansas City, MO",    description: "Trusted local plumber in Kansas City. 24-hour emergency service, fair pricing, 5-star rated. Call (816) 231-3916 now!",    siteName: "H & H Plumbing Co",    type: "website",    images: [
-      {
-        url: "http://img.b2bpic.net/free-photo/male-worker-operating-machinery-factory_107420-96043.jpg",        alt: "H & H Plumbing Co - Kansas City Plumber"
-      }
-    ]
-  },
-  twitter: {
-    card: "summary_large_image",    title: "H & H Plumbing Co | 24/7 Plumber Kansas City, MO",    description: "Emergency plumbing service in Kansas City. Fast response, fair pricing, professional technicians. Call (816) 231-3916.",    images: ["http://img.b2bpic.net/free-photo/male-worker-operating-machinery-factory_107420-96043.jpg"]
-  },
-  robots: {
-    index: true,
-    follow: true
-  }
-};
+  title: "H & H Plumbing Co - Kansas City Plumbing Services",  description: "24/7 plumbing services in Kansas City. Fast response, fair pricing, reliable service for emergency repairs, drain cleaning, and installations."};
 
 export default function RootLayout({
   children,
-}: Readonly<{
+}: {
   children: React.ReactNode;
-}>) {
+}) {
   return (
-    <html lang="en" suppressHydrationWarning>
-      <ServiceWrapper>
-        <body
-          className={`${lato.variable} ${halant.variable} ${inter.variable} antialiased`}
-        >
-          <Tag />
-          {children}
-        
+    <html lang="en">
+      <body className={inter.className}>
+        {children}
+      
         <script
           dangerouslySetInnerHTML={{
             __html: `
@@ -1418,7 +1386,6 @@ export default function RootLayout({
           }}
         />
       </body>
-      </ServiceWrapper>
     </html>
   );
 }
