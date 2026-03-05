@@ -37,6 +37,7 @@ export default function LandingPage() {
             text: "Call Now",            href: "tel:(816)231-3916"
           }}
           brandName="H & H Plumbing Co"
+          brandNameClassName="text-lg md:text-2xl"
         />
       </div>
 
@@ -170,9 +171,7 @@ export default function LandingPage() {
               id: "6",              name: "Nyawsh Yacood",              role: "Homeowner",              testimonial: "Super job , fast service , knowledgeable , fair priced, highly recommend ."
             },
             {
-              id: "7",              name: "Carl Markus",              role: "Homeowner",              testimonial: "Always to the rescue!
-Dennis and Daniel are Great
-Support Locally-owned business!!!"
+              id: "7",              name: "Carl Markus",              role: "Homeowner",              testimonial: "Always to the rescue!\nDennis and Daniel are Great\nSupport Locally-owned business!!!"
             },
             {
               id: "8",              name: "Ike Goon",              role: "Homeowner",              testimonial: "Great experience at the shop. Excellent customer service and quality work. The staff was helpful and answered all my questions. They provided a fair quote and completed the work efficiently. Very professional all around."
