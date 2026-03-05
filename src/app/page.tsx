@@ -37,7 +37,6 @@ export default function LandingPage() {
             text: "Call Now",            href: "tel:(816)231-3916"
           }}
           brandName="H & H Plumbing Co"
-          brandNameClassName="text-lg md:text-2xl"
         />
       </div>
 
