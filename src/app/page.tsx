@@ -152,37 +152,37 @@ export default function LandingPage() {
           textboxLayout="default"
           testimonials={[
             {
-              id: "1",              name: "George Alcocer",              role: "Homeowner",              testimonial: "I needed a new gas valve on my kitchen for a new stove that I bought. I called H&H and we scheduled for a more convenient day and Daniel was here on time. He did the job and he even installed the new stove. I was very pleased with them. They also got the better prices in town. I will recommend H&H.PositiveResponsiveness, Punctuality, Quality, Professionalism, Value"
+              id: "1",              name: "George Alcocer",              role: "",              testimonial: "I needed a new gas valve on my kitchen for a new stove that I bought. I called H&H and we scheduled for a more convenient day and Daniel was here on time. He did the job and he even installed the new stove. I was very pleased with them. They also got the better prices in town. I will recommend H&H.PositiveResponsiveness, Punctuality, Quality, Professionalism, Value"
             },
             {
-              id: "2",              name: "S K",              role: "Homeowner",              testimonial: "Super friendly! Very knowledgeable. Helped fix my kitchen sink. It was bubbling and backing up. He cleaned out the clogged pipe. He also fixed a leak in the pipe that was flooding our basement. Very understanding of my schedule.\n\nPay by cash or check"
+              id: "2",              name: "S K",              role: "",              testimonial: "Super friendly! Very knowledgeable. Helped fix my kitchen sink. It was bubbling and backing up. He cleaned out the clogged pipe. He also fixed a leak in the pipe that was flooding our basement. Very understanding of my schedule.\n\nPay by cash or check"
             },
             {
-              id: "3",              name: "KL Hughes",              role: "Homeowner",              testimonial: "They came out and pumped out my septic tank when they did they discovered a problem. The owner came out and found a short on my pump and he fixed it at a very reasonable rate. I am single mom buying my home and very much struggling most of the time to stay on top of it. When this happened it could have devastated me financially for very long time. He could have told me I needed a new pump which are about 1300.00 and lined his pocket I would have never known it was a short. These people are honest and real I would recommend them to anyone. I will never use anyone but them.PositiveResponsiveness, Punctuality, Quality, Professionalism, ValueServicesSewer repair"
+              id: "3",              name: "KL Hughes",              role: "",              testimonial: "They came out and pumped out my septic tank when they did they discovered a problem. The owner came out and found a short on my pump and he fixed it at a very reasonable rate. I am single mom buying my home and very much struggling most of the time to stay on top of it. When this happened it could have devastated me financially for very long time. He could have told me I needed a new pump which are about 1300.00 and lined his pocket I would have never known it was a short. These people are honest and real I would recommend them to anyone. I will never use anyone but them.PositiveResponsiveness, Punctuality, Quality, Professionalism, ValueServicesSewer repair"
             },
             {
-              id: "4",              name: "Arthur Zion",              role: "Homeowner",              testimonial: "Everything went well. Amazing service from start to finish."
+              id: "4",              name: "Arthur Zion",              role: "",              testimonial: "Everything went well. Amazing service from start to finish."
             },
             {
               id: "5",              name: "Jeffrey McKay",              role: "Property Manager",              testimonial: "It's were my friend works plumber shop it a good place good people I think best plumbing in KC mo"
             },
             {
-              id: "6",              name: "Nyawsh Yacood",              role: "Homeowner",              testimonial: "Super job , fast service , knowledgeable , fair priced, highly recommend ."
+              id: "6",              name: "Nyawsh Yacood",              role: "",              testimonial: "Super job , fast service , knowledgeable , fair priced, highly recommend ."
             },
             {
-              id: "7",              name: "Carl Markus",              role: "Homeowner",              testimonial: "Always to the rescue!\nDennis and Daniel are Great\nSupport Locally-owned business!!!"
+              id: "7",              name: "Carl Markus",              role: "",              testimonial: "Always to the rescue!\nDennis and Daniel are Great\nSupport Locally-owned business!!!"
             },
             {
-              id: "8",              name: "Ike Goon",              role: "Homeowner",              testimonial: "Great experience at the shop. Excellent customer service and quality work. The staff was helpful and answered all my questions. They provided a fair quote and completed the work efficiently. Very professional all around."
+              id: "8",              name: "Ike Goon",              role: "",              testimonial: "Great experience at the shop. Excellent customer service and quality work. The staff was helpful and answered all my questions. They provided a fair quote and completed the work efficiently. Very professional all around."
             },
             {
-              id: "9",              name: "Vincent Burke",              role: "Homeowner",              testimonial: "Outstanding customer service. The team went above and beyond to help us. They handled a complex plumbing issue with expertise and explained everything clearly. I appreciate their dedication to solving the problem completely."
+              id: "9",              name: "Vincent Burke",              role: "",              testimonial: "Outstanding customer service. The team went above and beyond to help us. They handled a complex plumbing issue with expertise and explained everything clearly. I appreciate their dedication to solving the problem completely."
             },
             {
-              id: "10",              name: "Cynthia Florez",              role: "Homeowner",              testimonial: "Fast and reliable toilet repair. Professional work and great communication throughout. They arrived promptly, diagnosed the issue quickly, and fixed it right the first time. Very satisfied with the service."
+              id: "10",              name: "Cynthia Florez",              role: "",              testimonial: "Fast and reliable toilet repair. Professional work and great communication throughout. They arrived promptly, diagnosed the issue quickly, and fixed it right the first time. Very satisfied with the service."
             },
             {
-              id: "11",              name: "Elvin Boone",              role: "Homeowner",              testimonial: "Great guys! They made everything easy and did excellent work. From the initial phone call to the finished job, everything was smooth and professional. Highly satisfied and will use them for all future plumbing needs."
+              id: "11",              name: "Elvin Boone",              role: "",              testimonial: "Great guys! They made everything easy and did excellent work. From the initial phone call to the finished job, everything was smooth and professional. Highly satisfied and will use them for all future plumbing needs."
             }
           ]}
           animationType="slide-up"
