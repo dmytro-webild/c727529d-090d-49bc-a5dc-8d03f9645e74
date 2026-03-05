@@ -87,34 +87,22 @@ export default function LandingPage() {
           textboxLayout="default"
           features={[
             {
-              title: "Emergency Plumbing",              description: "24/7 emergency response for urgent plumbing issues. We're here when you need us most.",              imageSrc: "http://img.b2bpic.net/free-photo/man-fixing-kitchen-sink_53876-13430.jpg?_wi=2",              imageAlt: "Emergency plumbing repair",              button: {
-                text: "Learn More",                href: "#"
-              }
+              title: "Emergency Plumbing",              description: "24/7 emergency response for urgent plumbing issues. We're here when you need us most.",              imageSrc: "http://img.b2bpic.net/free-photo/man-fixing-kitchen-sink_53876-13430.jpg?_wi=2",              imageAlt: "Emergency plumbing repair"
             },
             {
-              title: "Drain Cleaning",              description: "Professional drain cleaning and unclogging services to keep your pipes flowing smoothly.",              imageSrc: "http://img.b2bpic.net/free-photo/plumbing-repair-service_181624-27146.jpg?_wi=2",              imageAlt: "Drain cleaning service",              button: {
-                text: "Learn More",                href: "#"
-              }
+              title: "Drain Cleaning",              description: "Professional drain cleaning and unclogging services to keep your pipes flowing smoothly.",              imageSrc: "http://img.b2bpic.net/free-photo/plumbing-repair-service_181624-27146.jpg?_wi=2",              imageAlt: "Drain cleaning service"
             },
             {
-              title: "Leak Repair",              description: "Fast leak detection and repair to prevent water damage and save on your water bill.",              imageSrc: "http://img.b2bpic.net/free-photo/woman-fixing-kitchen-sink_53876-139620.jpg?_wi=2",              imageAlt: "Leak repair service",              button: {
-                text: "Learn More",                href: "#"
-              }
+              title: "Leak Repair",              description: "Fast leak detection and repair to prevent water damage and save on your water bill.",              imageSrc: "http://img.b2bpic.net/free-photo/woman-fixing-kitchen-sink_53876-139620.jpg?_wi=2",              imageAlt: "Leak repair service"
             },
             {
-              title: "Septic Tank Services",              description: "Septic tank pumping, inspection, and maintenance for reliable waste management.",              imageSrc: "http://img.b2bpic.net/free-photo/male-worker-operating-machinery-factory_107420-96043.jpg?_wi=2",              imageAlt: "Septic tank service",              button: {
-                text: "Learn More",                href: "#"
-              }
+              title: "Septic Tank Services",              description: "Septic tank pumping, inspection, and maintenance for reliable waste management.",              imageSrc: "http://img.b2bpic.net/free-photo/male-worker-operating-machinery-factory_107420-96043.jpg?_wi=2",              imageAlt: "Septic tank service"
             },
             {
-              title: "Basement Flood Repair",              description: "Emergency flood mitigation and water damage restoration for your home.",              imageSrc: "http://img.b2bpic.net/free-photo/lost-school-sport-gym-with-swimming-pool-chernobyl-city-zone-radioactivity-ghost-town_627829-11732.jpg",              imageAlt: "Basement flood repair",              button: {
-                text: "Learn More",                href: "#"
-              }
+              title: "Basement Flood Repair",              description: "Emergency flood mitigation and water damage restoration for your home.",              imageSrc: "http://img.b2bpic.net/free-photo/lost-school-sport-gym-with-swimming-pool-chernobyl-city-zone-radioactivity-ghost-town_627829-11732.jpg",              imageAlt: "Basement flood repair"
             },
             {
-              title: "Kitchen & Bathroom Plumbing",              description: "Expert installation and renovation of kitchen and bathroom plumbing systems.",              imageSrc: "http://img.b2bpic.net/free-photo/male-plumber-working-fix-problems-client-s-house_23-2150990710.jpg?_wi=2",              imageAlt: "Kitchen and bathroom plumbing",              button: {
-                text: "Learn More",                href: "#"
-              }
+              title: "Kitchen & Bathroom Plumbing",              description: "Expert installation and renovation of kitchen and bathroom plumbing systems.",              imageSrc: "http://img.b2bpic.net/free-photo/male-plumber-working-fix-problems-client-s-house_23-2150990710.jpg?_wi=2",              imageAlt: "Kitchen and bathroom plumbing"
             }
           ]}
           gridVariant="three-columns-all-equal-width"
